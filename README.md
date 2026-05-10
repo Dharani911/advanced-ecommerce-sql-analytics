@@ -6,7 +6,9 @@ This project demonstrates advanced SQL analytics for a realistic ecommerce busin
 
 The project focuses on practical business analysis such as revenue trends, product performance, customer behavior, repeat customers, payment status analysis, and month-over-month growth.
 
-This project is designed as a portfolio project for roles such as:
+The goal of this project is to show how SQL can be used to answer real business questions and support data-driven decision-making.
+
+This project is designed for portfolio demonstration for roles such as:
 
 - Data Analyst
 - Business Analyst
@@ -15,18 +17,25 @@ This project is designed as a portfolio project for roles such as:
 - Junior Analytics Engineer
 - AI/Data Analyst
 
+---
+
 ## Business Scenario
 
-An ecommerce company wants to understand:
+An ecommerce company wants to understand its sales, customer, product, and payment performance.
 
-- How much revenue is generated monthly, weekly, and daily
-- Which products and categories perform best
-- Which customers generate the highest value
-- Whether payment failures are increasing
-- How many customers are new vs returning
-- How repeat customer behavior affects business performance
+The business wants to answer questions such as:
 
-The SQL queries in this project answer these questions using clean, business-focused analysis.
+- How much revenue is generated monthly, weekly, and daily?
+- Which products and categories perform best?
+- Which customers generate the highest value?
+- Are payment failures increasing or decreasing?
+- How many customers are new vs returning?
+- How strong is repeat customer behavior?
+- What is the month-over-month revenue growth?
+
+The SQL queries in this project answer these questions using clean, business-focused PostgreSQL analysis.
+
+---
 
 ## Skills Demonstrated
 
@@ -38,12 +47,15 @@ The SQL queries in this project answer these questions using clean, business-foc
 - Payment status and payment failure analysis
 - Product and category performance analysis
 - Month-over-month growth analysis
+- Customer lifetime value ranking
 - Portfolio-ready SQL documentation
+
+---
 
 ## Project Structure
 
 ```text
-ecommerce-sql-analytics-portfolio/
+advanced-ecommerce-sql-analytics/
 │
 ├── README.md
 ├── sql/
@@ -56,81 +68,8 @@ ecommerce-sql-analytics-portfolio/
 │   └── project_explanation.md
 │
 └── screenshots/
-    └── add_query_result_screenshots_here.txt
-```
-
-## Database Used
-
-This project uses PostgreSQL.
-
-You can run the queries using:
-
-- pgAdmin
-- DBeaver
-- PostgreSQL command line
-- DataGrip
-- Supabase SQL Editor
-
-## How to Run This Project
-
-### Step 1: Create the tables
-
-Run:
-
-```sql
-sql/01_create_tables.sql
-```
-
-### Step 2: Insert sample data
-
-Run:
-
-```sql
-sql/02_insert_sample_data.sql
-```
-
-### Step 3: Run the analysis queries
-
-Run:
-
-```sql
-sql/advanced_ecommerce_sql_analysis.sql
-```
-
-## Main Business Questions Answered
-
-1. What is the monthly revenue trend?
-2. What is the weekly revenue trend?
-3. How many orders are placed each day?
-4. Which weekday generates the highest revenue?
-5. Which hour generates the highest revenue?
-6. What are the top 10 products by revenue?
-7. Which product performs best in each category?
-8. Who is the top customer each month?
-9. What is the running total revenue?
-10. What is the month-over-month revenue growth?
-11. What was each customer's previous order date?
-12. How many days pass between customer purchases?
-13. What percentage of customers are repeat customers?
-14. What is the monthly payment status percentage?
-15. Are payment failures increasing or decreasing?
-16. What is the average order value by month?
-17. How many unique customers purchase each month?
-18. How many customers are new vs returning?
-19. What is each category's monthly revenue share?
-20. Which customers have the highest lifetime value?
-
-## Suggested Portfolio Improvements
-
-After running the SQL queries, add:
-
-- Screenshots of query outputs
-- A Power BI or Tableau dashboard
-- A short business insight report
-- A LinkedIn post explaining the project
-
-## Author
-
-Dharani Perumal Samy
-
-MSc Data Analytics | SQL | Python | Power BI/Tableau | AI-assisted Analytics
+    ├── monthly_revenue.png
+    ├── top_products_by_revenue.png
+    ├── month_over_month_growth.png
+    ├── payment_status_percentage.png
+    └── new_vs_returning_customers.png
